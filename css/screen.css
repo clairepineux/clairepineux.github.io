@@ -1,0 +1,616 @@
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary
+{
+    display: block;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('../font/gotham-bold-webfont.eot');
+    src: url('../font/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-bold-webfont.woff') format('woff'),
+         url('../font/gotham-bold-webfont.ttf') format('truetype'),
+         url('../font/gotham-bold-webfont.svg#gothambold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('../font/gotham-light-webfont.eot');
+    src: url('../font/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-light-webfont.woff') format('woff'),
+         url('../font/gotham-light-webfont.ttf') format('truetype'),
+         url('../font/gotham-light-webfont.svg#gothamlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('../font/gotham-medium-webfont.eot');
+    src: url('../font/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-medium-webfont.woff') format('woff'),
+         url('../font/gotham-medium-webfont.ttf') format('truetype'),
+         url('../font/gotham-medium-webfont.svg#gothammedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body
+{
+	background:white;
+	color:#000;
+	margin:0;
+	font: normal 75%/1.5 gothamlight,Helvetica,Arial,sans-serif;
+}
+
+
+/***********************
+HEADER
+***********************/
+
+.page-header-home /*couleur pour la page d'accueil*/
+{
+	background: #a0bcad url('../img/ligne.png')no-repeat 50% 0;
+}
+
+.page-header-2d /*couleur pour les pages de détails sur les travaux de la catégorie 2D*/
+{
+	background: #eb7209 url('../img/ligne.png')no-repeat 50% 0;
+}
+
+.page-header-3d /*couleur pour les pages de détails sur les travaux de la catégorie 3D*/
+{
+	background: #7ea187 url('../img/ligne.png')no-repeat 50% 0;
+}
+
+.page-header-jeu /*couleur pour les pages de détails sur les travaux de la catégorie jeu*/
+{
+	background: #ce4d1f url('../img/ligne.png')no-repeat 50% 0;
+}
+
+.bloc-header
+{
+	width:1000px;
+	height: 180px;
+	margin:0 auto;
+	padding:0;
+	}
+
+	.logo
+	{
+		margin: 0;
+	}
+
+	.logo a
+	{
+		float:left;
+		background: url('../img/logo.png');
+		height: 100px;
+		width: 100px;
+		margin:25px 0;
+		padding: 0;
+	   /*cacher le texte -> remplacement par image*/
+	    text-indent: 100%;
+    	white-space: nowrap;
+    	overflow: hidden;
+		}
+
+		.main-nav
+		{
+			float:right;
+			margin:55px 0;
+			padding:0;
+			list-style: none;
+		}
+
+			.main-nav>li
+			{
+				float:left;
+				padding: 0 20px 0 0;
+			}
+
+			.main-nav a
+			{
+				display: block;
+				padding: 10px;
+
+				text-transform: uppercase;
+				text-decoration: none;
+				font-size: 1.2em;
+				color:white;
+				-webkit-transition: background 0.5s;
+				transition: background 0.5s;
+			}
+
+			.main-nav a:hover
+			{
+				background: white;
+				border-radius: 5px;
+				color: #a0bcad;
+			}
+
+
+/*****************************
+TRAVAUX
+*****************************/
+
+
+#travaux
+{
+	background: white;
+}
+
+.bloc-travaux
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+
+	.travaux-list
+	{
+		list-style: none;
+		margin: 0 200px;
+		padding: 0;
+	}
+
+		.travaux-list a
+		{
+			float:left;
+			height: 300px;
+			width: 300px;
+
+			text-decoration: none;
+		}
+
+		.travaux-list p
+		{
+			margin: 0;
+			padding:265px 10px 0 52px;
+
+			text-transform: uppercase;
+			font-size: 1em;
+			color:white;
+		}
+
+			.travail0 a
+			{
+				background: url('../img/travaux/2Dsoubassophone.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+
+			.travail0 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+
+			}
+
+			.travail0bis a
+			{
+				background: url('../img/travaux/2Dgraphicdesign.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail0bis a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			.travail1 a
+			{
+				background: url('../img/travaux/2Dsaisons.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail1 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			
+			.travail2 a
+			{
+				background: url('../img/travaux/3Dhellboy.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail2 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			
+			.travail3 a
+			{
+				background: url('../img/travaux/2Dmotiondesign.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail3 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			
+			.travail4 a
+			{
+				background: url('../img/travaux/JEUvoyager.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail4 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			
+			.travail5 a
+			{
+				background: url('../img/travaux/3Dpiece.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail5 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+
+			.travail6 a
+			{
+				background: url('../img/travaux/2Ddexter.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail6 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+
+			.travail7 a
+			{
+				background: url('../img/travaux/2Dnotionmusicale.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail7 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			.travail8 a
+			{
+				background: url('../img/travaux/2Dsignaletique.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail8 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+			.travail9 a
+			{
+				background: url('../img/travaux/2Dpandas.jpg') 0 0 no-repeat;
+				text-indent: -9999px;
+			}
+
+			.travail9 a:hover
+			{
+				background-position: 0 -300px;
+				text-indent: 0;
+			}
+
+
+/***************************
+CONTACT
+***************************/
+
+
+#contact-home
+{
+	background: #a0bcad url('../img/ligne_bas.png')no-repeat 50% 0;
+}
+
+#contact-2d
+{
+	background: #eb7209 url('../img/ligne_bas.png')no-repeat 50% 0;
+}
+
+#contact-3d
+{
+	background: #7ea187 url('../img/ligne_bas.png')no-repeat 50% 0;
+}
+
+#contact-jeu
+{
+	background: #ce4d1f url('../img/ligne_bas.png')no-repeat 50% 0;
+}
+
+.bloc-contact
+	{
+		width:1000px;
+		margin:0 auto;
+		padding: 90px 0 50px 0;
+	}
+
+	.contact-list
+	{
+		width: 280px;
+		margin: 0 auto;
+		padding: 30px 0;
+		list-style: none;
+	}
+
+		.contact-list>li
+		{
+			float: left;
+			height: 40px;
+			width: 40px;
+			padding-right:40px;
+		}
+
+		.contact-list li:last-child
+		{
+			padding-right: 0;
+		}
+
+		.contact-list a
+		{
+			float: left;
+			height: 40px;
+			width: 40px;
+			/*cacher le texte -> remplacement par image*/
+		    text-indent: 100%;
+	    	white-space: nowrap;
+	    	overflow: hidden;
+		}
+
+			.mail a
+			{
+				background: url('../img/mail.png') 0 0 no-repeat;
+			}
+
+			.in a
+			{
+				background: url('../img/in.png') 0 0 no-repeat;
+			}
+
+			.facebook a
+			{
+				background: url('../img/facebook.png') 0 0 no-repeat;
+			}
+
+			.behance a
+			{
+				background: url('../img/behance.png') 0 0 no-repeat;
+			}
+
+				.contact-logo a:hover
+				{
+				-webkit-transition: opacity 1s;
+				transition: opacity 1;
+				}
+				.contact-logo a:hover
+				{
+					opacity: 0.7;
+				}
+
+
+	.text-contact
+	{
+		color: white;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.1em;
+	}
+
+	.text-contact a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+	.text-contact a:hover
+	{
+		background: white;
+		border-radius: 5px;
+		color: #a0bcad;
+	}
+
+	.text-contact_lien
+	{
+		margin: 0;
+		padding: 1em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.1em;
+	}
+
+.text-contact_lien a
+	{
+		color: black;
+		text-decoration: none;
+	}
+
+	.text-contact_lien a:hover
+	{
+		background: #a0bcad;
+		border-radius: 5px;
+		color: white;
+	}
+
+/***********************
+FOOTER
+***********************/
+
+
+.page-footer-home
+{
+	background: #a0bcad;
+}
+
+.page-footer-2d
+{
+	background: #eb7209;
+}
+
+.page-footer-3d
+{
+	background: #7ea187;
+}
+
+.page-footer-jeu
+{
+	background: #ce4d1f;
+}
+
+.bloc-footer
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 10px;
+}
+
+	.text-footer
+	{
+		text-transform: uppercase;
+		text-align: center;
+		color: white;
+		font-size: 0.8em;
+	}
+
+
+
+
+
+/********************
+
+PAGES DETAILS TRAVAUX
+
+********************/
+
+.travail
+{
+	margin: 0 200px;
+}
+
+
+.description-2d
+{
+	background: #eb7209 url('../img/ligne_droite_blanc.png')no-repeat 50% 0;
+}
+
+.description-3d
+{
+	background: #7ea187 url('../img/ligne_droite_blanc.png')no-repeat 50% 0;
+}
+
+.description-jeu
+{
+	background: #ce4d1f url('../img/ligne_droite_blanc.png')no-repeat 50% 0;
+}
+
+.bloc-description
+{
+	text-align: center;
+	color: white;
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0 30px 0;
+}
+
+	.bloc-description>h1
+	{
+		margin: 0;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-size: 1.3em;
+	}
+
+	.bloc-description>p
+	{
+		margin: 0;
+		font-size: 1.1em;
+	}
+
+
+
+	.text-description a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+	.text-description a:hover
+	{
+		text-decoration: underline;
+		
+	}
+
+
+.detail-2d
+{
+	background: white url('../img/ligne_droite_orange.png')no-repeat 50% 0;
+}
+
+.detail-3d
+{
+	background: white url('../img/ligne_droite_vert.png')no-repeat 50% 0;
+}
+
+.detail-jeu
+{
+	background: white url('../img/ligne_droite_rouge.png')no-repeat 50% 0;
+}
+
+.bloc-detail
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 30px 0; 
+}
+
+.bloc-detail>img
+{
+	padding-top: 20px;
+}
+
+.logo
+{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+
+/*######
+clearfix
+######*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+

@@ -1,0 +1,336 @@
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary
+{
+    display: block;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('../font/gotham-bold-webfont.eot');
+    src: url('../font/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-bold-webfont.woff') format('woff'),
+         url('../font/gotham-bold-webfont.ttf') format('truetype'),
+         url('../font/gotham-bold-webfont.svg#gothambold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('../font/gotham-light-webfont.eot');
+    src: url('../font/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-light-webfont.woff') format('woff'),
+         url('../font/gotham-light-webfont.ttf') format('truetype'),
+         url('../font/gotham-light-webfont.svg#gothamlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('../font/gotham-medium-webfont.eot');
+    src: url('../font/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-medium-webfont.woff') format('woff'),
+         url('../font/gotham-medium-webfont.ttf') format('truetype'),
+         url('../font/gotham-medium-webfont.svg#gothammedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body
+{
+	background:white;
+	color:#000;
+	margin:0;
+	font: normal 75%/1.5 gothamlight,Helvetica,Arial,sans-serif;
+}
+
+
+/***********************
+HEADER
+***********************/
+
+
+
+/*****************************
+TRAVAUX
+*****************************/
+
+
+#travaux
+{
+	background: white;
+}
+
+.bloc-travaux
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+
+	.travaux-list
+	{
+		list-style: none;
+		margin: 0 200px;
+		padding: 0;
+	}
+
+		.travaux-list a
+		{
+			float:left;
+			height: 300px;
+			width: 300px;
+			text-decoration: none;
+		}
+
+		.travaux-list p
+		{
+			margin: 0;
+			padding:265px 10px 0 52px;
+			text-transform: uppercase;
+			font-size: 12pt;
+		}
+
+			.travail1 a
+			{
+				background: url('../img/travaux/2Dsaisons.jpg') 0 0 no-repeat;
+			}
+
+			
+			.travail2 a
+			{
+				background: url('../img/travaux/3Dhellboy.jpg') 0 0 no-repeat;
+			}
+
+			
+			.travail3 a
+			{
+				background: url('../img/travaux/2Dmotiondesign.jpg') 0 0 no-repeat;
+			}
+
+			
+			.travail4 a
+			{
+				background: url('../img/travaux/JEUvoyager.jpg') 0 0 no-repeat;
+			}
+
+			
+			.travail5 a
+			{
+				background: url('../img/travaux/3Dpiece.jpg') 0 0 no-repeat;
+			}
+
+
+			.travail6 a
+			{
+				background: url('../img/travaux/2Ddexter.jpg') 0 0 no-repeat;
+			}
+
+
+			.travail7 a
+			{
+				background: url('../img/travaux/2Dnotionmusicale.jpg') 0 0 no-repeat;
+			}
+
+
+
+/***************************
+CONTACT
+***************************/
+
+
+.bloc-contact
+	{
+		width:1000px;
+		margin:0 auto;
+		padding: 90px 0 50px 0;
+	}
+
+	.contact-list
+	{
+		display: none;
+		list-style: none;
+		margin: 0 auto;
+		padding: 30px 0;
+		width: 280px;
+	}
+
+		.contact-list>li
+		{
+			float: left;
+			padding-right:40px;
+			height: 40px;
+			width: 40px;
+		}
+
+		.contact-list li:last-child
+		{
+			padding-right: 0;
+		}
+
+		.contact-list a
+		{
+			float: left;
+			height: 40px;
+			width: 40px;
+			/*cacher le texte*/
+		    text-indent: 100%;
+	    	white-space: nowrap;
+	    	overflow: hidden;
+		}
+
+			.contact-mail a
+			{
+				background: url('../img/mail.png') 0 0 no-repeat;
+			}
+
+			.contact-mail a:hover
+			{
+				opacity: 0.7;
+			}
+
+
+			.contact-in a
+			{
+				background: url('../img/in.png') 0 0 no-repeat;
+			}
+
+			.contact-in a:hover
+			{
+				opacity: 0.7;
+			}
+
+
+			.contact-facebook a
+			{
+				background: url('../img/facebook.png') 0 0 no-repeat;
+			}
+
+			.contact-facebook a:hover
+			{
+				opacity: 0.7;
+			}
+
+
+			.contact-behance a
+			{
+				background: url('../img/behance.png') 0 0 no-repeat;
+			}
+
+			.contact-behance a:hover
+			{
+				opacity: 0.7;
+			}
+
+
+	.text-contact
+	{
+		color: white;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.1em;
+	}
+
+	.text-contact a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+	.text-contact a:hover
+	{
+		text-decoration: underline;
+	}
+
+
+/***********************
+FOOTER
+***********************/
+
+
+.bloc-footer
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 10px;
+}
+
+	.text-footer
+	{
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 10pt;
+	}
+
+
+
+
+
+/********************
+
+DETAILS TRAVAUX
+
+********************/
+
+.travail
+{
+	margin: 0 200px;
+}
+
+
+.bloc-description
+{
+	text-align: center;
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0 30px 0;
+}
+
+	.bloc-description>h1
+	{
+		margin: 0;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-size: 14pt;
+	}
+
+	.bloc-description>p
+	{
+		margin: 0;
+		font-size: 10pt;
+	}
+
+
+.bloc-detail
+{
+	width:1000px;
+	margin:0 auto;
+	padding: 30px 0; 
+}
+
+.bloc-detail>img
+{
+	padding-top: 20px;
+}
+
+
+
+
+/*######
+clearfix
+######*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
