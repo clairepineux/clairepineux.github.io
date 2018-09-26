@@ -177,6 +177,12 @@ TRAVAUX
 			color:white;
 		}
 
+			.travailshowreel
+			{
+				margin:0;
+				padding-bottom:4em;
+			}
+
 			.travail0 a
 			{
 				background: url('../img/travaux/2Dsoubassophone.jpg') 0 0 no-repeat;
